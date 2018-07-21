@@ -266,6 +266,6 @@ export const showGuess = (word, guesses) => {
     "your","yourself","youth","zero","zebra","zipper","zoo","zulu"
   ];
   
-  export const randomWord = () => {
+  export  const randomWord = () => {
     return wordList[Math.floor(Math.random() * wordList.length)]
   }

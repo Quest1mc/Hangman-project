@@ -8,7 +8,7 @@ export default class AlphabetKeys extends Component {
   constructor(props){
     super(props);
 
-    this.state = { item : ''};
+    this.state = { index : ''};
   }
  
    
@@ -18,7 +18,7 @@ export default class AlphabetKeys extends Component {
     return (
         <div>
              <ol>
-            {(Alphabet.map(item =><h1 className= "Alphabet" >{item}</h1>))} 
+            {(Alphabet.map(item =><h1 className= "Alphabet" onClick= {console.log("I got clicked",item)}>{item}</h1>))} 
             </ol>
           
     </div>
