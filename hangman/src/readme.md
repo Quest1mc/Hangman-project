@@ -4,10 +4,13 @@ components needed
 
 psuedocode
 new game 
+    - access words 
+    -pick random word 
+    get length of word and 
 random word is picked from the stored list of words (function component)
-the rand dom word is then split into letters (.slice or .splice)
-the length of that word is put on the screen in dashes .item.length
-there is a list of options as in alphabet that the user can use as input 
+the rand dom word is then split into letters (var res = str.split(" ");
+the length of that word is put on the screen in dashes .word .length
+there is a list of options as in alphabet that the user can use as input abc 
 when user clicks a letter - event listener & handler 
 the value of that click is compared to the elements of the array of random word 
 if the letter is in the array of letters in the  randomword then it pops up on the screen 
