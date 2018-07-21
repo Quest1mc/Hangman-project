@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hangman from './components/hangman'
 
+
 class App extends Component {
   render() {
     return (

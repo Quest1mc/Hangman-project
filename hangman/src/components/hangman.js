@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
-
+import NewGame from './containers/NewGame'
+import AlphabetKeys from './containers/AlphabetKeys';
 
 
 class Hangman extends Component {
     componentDidMount() {
-        console.log(123);
+        console.log(<AlphabetKeys />);
     }
   render() {
     return (
       <div>
         <h1> This is  my hangman game</h1>
+        <NewGame />
+        <AlphabetKeys />
       </div>
     )
   }
