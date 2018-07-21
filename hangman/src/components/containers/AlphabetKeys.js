@@ -18,7 +18,7 @@ export default class AlphabetKeys extends Component {
     return (
         <div>
              <ol>
-            {(Alphabet.map(item =><h1 className= "Alphabet" onClick= {console.log("I got clicked",item)}>{item}</h1>))} 
+            {(Alphabet.map(item =><h1 className= "Alphabet" onClick= {console.log("I got clicked")}>{item} </h1>))} 
             </ol>
           
     </div>
@@ -27,4 +27,3 @@ export default class AlphabetKeys extends Component {
     
   }
 };
-//{this.setState(Alphabet.map(item =><li>{Alphabet.item}</li>))} 

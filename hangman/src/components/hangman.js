@@ -5,7 +5,7 @@ import AlphabetKeys from './containers/AlphabetKeys';
 
 class Hangman extends Component {
     componentDidMount() {
-        console.log(<AlphabetKeys />);
+       ;
     }
   render() {
     return (

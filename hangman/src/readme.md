@@ -4,8 +4,8 @@ components needed
 
 psuedocode
 new game 
-    - access words 
-    -pick random word 
+    -x access words 
+    x-pick random word 
     get length of word and 
 random word is picked from the stored list of words (function component)
 the rand dom word is then split into letters (var res = str.split(" ");

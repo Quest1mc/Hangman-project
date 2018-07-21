@@ -3,18 +3,18 @@ import  { PureComponent } from 'react'
 import {randomWord }from '../lib/game'
 
 export default class NewGame extends PureComponent {
-  state = {}
-  
-  
   render() {
-    const setNewGame=()=>this.setState = randomWord()
+    const newWord =  function(){this.setState(randomWord) }
+    
     return (
       <div>
-        <button onClick={setNewGame}>  New Game </button>
+        <button onClick ={(console.log(event => (newWord)))}>  New Game </button>
       </div>
     )
   }
-   
+  setNewgame(){
+   this.randomWord().length = "-"
+  }
 }
 
 
