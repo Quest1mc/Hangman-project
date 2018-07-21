@@ -8,7 +8,7 @@ export default class NewGame extends PureComponent {
     
     return (
       <div>
-        <button onClick ={(console.log(event => (newWord)))}>  New Game </button>
+        <button onClick ={(console.log(event => (newWord())))}>  New Game </button>
       </div>
     )
   }
